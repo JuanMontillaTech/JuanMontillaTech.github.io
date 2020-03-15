@@ -1,0 +1,70 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Juan Montilla "
+## Basic Configuration
+
+ 
+builddrafts = false
+canonifyurls = false 
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Juan Montilla" 
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Juan Montilla"
+intro = "Ingeniero de software"
+description = "Asp.net, jquery, css, C#.net,vb.net, Sql-server"
+authorimage = "JuanMontilla.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "https://github.com/juanmontillatech"
+instagram = "elmontilla"
+linkedin = "https://www.linkedin.com/in/juanmontilla/"
+twitter = "@juanmaster"
+google = "ing.juan.montilla@gmail.com"
+telegram = "Juanmontilla01"
+whatsapp = "18293087380"
+email = "ing.juan.montilla@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2019. JuanRamon. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+
+
+[[menu.main]]
+    name = "Proyectos"
+    identifier = "Proyectos"
+    weight = 300
+    url = "/Proyectos/" 
+
+
+[[menu.main]]
+    name = "acerca de mi"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
